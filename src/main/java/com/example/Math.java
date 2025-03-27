@@ -1,7 +1,7 @@
 package com.example;
 
 public class Math {
-    public static void mathMultiplication(String[] args) {
+    public static void main(String[] args) {
         System.out.println("hola jenkins que tal");
 
         int resultantMultiplication = multiplicacion(5, 3);
