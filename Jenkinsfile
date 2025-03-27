@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/Angel-de-la-rosa/jenkins-prueba'
+                git 'https://github.com/Angel-de-la-rosa/jenkins-prueba', credentialsId: 'github-credentials'
             }
         }
         stage('Build') {
